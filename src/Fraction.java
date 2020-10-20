@@ -14,7 +14,7 @@ public class Fraction {
 	
 @Override
 	public String toString() {
-		return firstName + " ....aa11noooa. " + lastName;
+		return firstName + " ....aa11naaaaoooa. " + lastName;
 		} 
 	
 public static void main(String[] args) {
