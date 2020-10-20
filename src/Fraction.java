@@ -1,13 +1,27 @@
 
 public class Fraction {
 
-	public Fraction() {
-		// TODO Auto-generated constructor stub
+		
+	private String firstName;
+	private String lastName;
+	
+	public Fraction(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;	
 	}
+	
+@Override
+	public String toString() {
+		return firstName + " " + lastName;
+		}
+	
+public static void main(String[] args) {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
+	Fraction user = new Fraction("Fernando", "Eladio");
+	System.out.println(user.toString()); 
+	SYSSDSDS;SDSDSD
 
+
+}
 }
