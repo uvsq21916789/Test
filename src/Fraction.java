@@ -20,7 +20,7 @@ public static void main(String[] args) {
 
 	Fraction user = new Fraction("Fernando", "Eladio");
 	System.out.println(user.toString()); 
-	SYSSDSDS;SDSDSD
+	
 
 
 }
