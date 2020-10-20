@@ -5,10 +5,9 @@ public class Fraction {
 	private String firstName;
 	private String lastName; 
 	
-	public Fraction() {
+	public Fraction(String firstName,String lastName) {
 	
-		 String firstName; 
-		 String lastName;
+		 
 		this.firstName = firstName;
 		this.lastName = lastName;	
 	}
@@ -20,10 +19,9 @@ public class Fraction {
 	
 public static void main(String[] args) {
 
-
-	 Fraction user = new Fraction("Fernando", "Eladio");
+	Fraction user = new Fraction("Fernando", "Eladio");
 	System.out.println(user.toString());  
-	 //System.out.println("hola"); 
+	 
 
 
 }
