@@ -10,15 +10,15 @@ public class Fraction {
 		this.lastName = lastName;	
 	}
 	
-@Override
+/* @Override
 	public String toString() {
 		return firstName + " " + lastName;
-		}
+		} */
 	
 public static void main(String[] args) {
 
 
-	Fraction user = new Fraction("Fernando", "Eladio");
+	Fraction user = new Fraction("Fernandoo", "Eladio");
 	System.out.println(user.toString()); 
 	
 
