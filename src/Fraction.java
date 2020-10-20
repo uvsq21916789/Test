@@ -19,7 +19,7 @@ public class Fraction {
 	
 public static void main(String[] args) {
 
-	Fraction user = new Fraction("Fernando", "Eladio");
+	Fraction user = new Fraction("Eladio", "Fernando");
 	System.out.println(user.toString());  
 	 
 
