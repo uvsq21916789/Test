@@ -8,19 +8,19 @@ public class Fraction {
 	public Fraction(String firstName, String lastName) {
 		this.firstName = firstName;
 		this.lastName = lastName;	
-	}
 	
-/* @Override
+	
+@Override
 	public String toString() {
 		return firstName + " " + lastName;
-		} */
-	
+		}
+	}
 public static void main(String[] args) {
 
 
 	Fraction user = new Fraction("Fernandoo", "Eladio");
 	System.out.println(user.toString()); 
-	
+	/* System.out.println("hola"); */	
 
 
 }
